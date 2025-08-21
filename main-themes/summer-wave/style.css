@@ -20,17 +20,15 @@ html {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-html {
-  height: 100vh;
+body {
+  background-color: rgb(0, 0, 0);
+  font-family: "Source Code Pro", monospace;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('wallpaper.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}y
+  position: relative;
+  overflow-x: hidden;
+}
 .wrapper {
   display: flex;
   justify-content: center;
@@ -271,4 +269,5 @@ form input:focus {
 .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
   transform: rotate(-35deg);
 }
+
 
